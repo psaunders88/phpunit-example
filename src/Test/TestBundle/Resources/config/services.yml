@@ -1,0 +1,10 @@
+services:
+    adder:
+        class: Test\TestBundle\Adders\Adder
+        arguments: ~
+    converter:
+        class: Test\TestBundle\Converters\NumbersToWords
+        arguments: ~
+    manager:
+        class: Test\TestBundle\Managers\DataManager
+        arguments: [@adder, @converter]

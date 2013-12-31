@@ -18,10 +18,10 @@ class NumbersToWords
      *
      * @return string
      */
-	public function wordify($number)
-	{
+    public function wordify($number)
+    {
         return $this->convert_number_to_words($number);
-	}
+    }
 
     /**
      * Convert number to words

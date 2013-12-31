@@ -12,15 +12,15 @@ namespace Test\TestBundle\Adders;
 class Adder
 {
 	/**
-	 * Given two integers return the sum of them
-	 *
-	 * @param integer $x First value
-	 * @param integer $y Second value
-	 *
-	 * @return integer
-	 */
-	public function add($x, $y)
-	{
-		return $x + $y;
-	}	
+     * Given two integers return the sum of them
+     *
+     * @param integer $x First value
+     * @param integer $y Second value
+     *
+     * @return integer
+     */
+    public function add($x, $y)
+    {
+        return $x + $y;
+    }	
 }

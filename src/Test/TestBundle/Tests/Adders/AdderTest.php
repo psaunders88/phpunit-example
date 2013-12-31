@@ -12,11 +12,11 @@ use Test\TestBundle\Adders\Adder;
  */
 class AdderTest extends \PHPUnit_Framework_TestCase
 {
-	/**
-	 * Test that given two variables the add function returns the sum
-	 *
-	 * @return void
-	 */
+    /**
+     * Test that given two variables the add function returns the sum
+     *
+     * @return void
+     */
     public function testAdd()
     {
         $adder = new Adder();

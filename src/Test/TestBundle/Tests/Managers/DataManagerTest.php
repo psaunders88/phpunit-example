@@ -12,6 +12,11 @@ use Test\TestBundle\Managers\DataManager;
  */
 class DataManagerTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * Test the data manager class Add and Wordify method
+     *
+     * @return void
+     */
     public function testAddAndWordify()
     {
         // Build mock Adder 

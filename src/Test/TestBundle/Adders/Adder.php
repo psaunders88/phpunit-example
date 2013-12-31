@@ -11,7 +11,7 @@ namespace Test\TestBundle\Adders;
  */
 class Adder
 {
-	/**
+    /**
      * Given two integers return the sum of them
      *
      * @param integer $x First value

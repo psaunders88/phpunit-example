@@ -8,7 +8,7 @@ use Test\TestBundle\Converters\NumbersToWords;
 /**
  * DataManager
  * 
- * @package Test\TestBundle\Converters
+ * @package Test\TestBundle\Managers
  * @author Paul Saunders
  */
 class DataManager
